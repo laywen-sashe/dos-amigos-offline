@@ -1,0 +1,27 @@
+# Virtual environments
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Model files (too large for git)
+models/
+*.npz
+*.safetensors
+*.mlx
+*.bin
+
+# Releases (will use GitHub Releases instead)
+releases/
+*.zip
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
