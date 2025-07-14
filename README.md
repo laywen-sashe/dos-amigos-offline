@@ -14,22 +14,20 @@ Two powerful amigos for automatic speech recognition! Run push-to-talk, auto-pas
 ## 🚀 Quick Download & Use
 
 **Want to use it right now?** 
+👉 Download from releases.
 
-👉 **[Download dos-amigos-offline.zip](releases/dos-amigos-offline.zip)** 
-
-1. Extract the ZIP
-2. Run `uv run python scripts/setup_offline.py`  
-3. Run `uv run python dos_amigos.py`
-4. Press Right Option to record.
-5. Press Right Option again to stop recording and paste your recorded text!
-
-## 📸 Demo
-(Coming next push)
-![Demo GIF](assets/demo.gif)
-
-## 🛠️ For Developers
-
-See the `src/` directory for source code. Full documentation coming soon in `docs/`.
+### Setup
+1. Due to GitHub's 2GB limit, download both parts:
+1. 📦 dos-amigos-offline-v1.0.zip.partaa
+2. 📦 dos-amigos-offline-v1.0.zip.partab
+3. Combine both parts `cat dos-amigos-offline-v1.0.zip.part* > dos-amigos-offline-v1.0.zip`
+4. Extract `unzip dos-amigos-offline-v1.0.zip`
+5. Change directories `cd dos-amigos-offline-v1.0`
+6. Run `uv run python scripts/setup_offline.py`
+7. Activate `source .venv/bin/activate`
+7. Run `uv run python dos_amigos.py`
+8. Press Right Option to record.
+9. Press Right Option again to stop recording and paste your recorded text!
 
 ## 📄 License
 
