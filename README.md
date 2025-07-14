@@ -2,7 +2,7 @@
 
 Two powerful amigos for automatic speech recognition! Run push-to-talk, auto-paste ASR from terminal, using offline open source MLX models (Whisper Small and Parakeet).
 
-## 🎯 The Two Amigos
+## 🧑‍🤝‍🧑 The Two Amigos
 
 - **🪽 El Ligero**
 	- Lightweight & fast
