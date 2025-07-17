@@ -11,10 +11,10 @@ Two powerful amigos for automatic speech recognition! Run push-to-talk, auto-pas
 	- Precise & fast, maximum accuracy
 	- Model: [parakeet-tdt-0.6b-v2-mlx](https://github.com/senstella/parakeet-mlx) (~2GB)
 
-## 🚀 Quick Download & Use
+## 🚀 Download and Setup Instructions
 
-**Want to use it right now?** 
-👉 Download from releases.
+### Download
+👉 [Download from releases](https://github.com/laywen-sashe/dos-amigos-offline/releases).
 
 ### Setup
 1. Due to GitHub's 2GB limit, download both parts:
