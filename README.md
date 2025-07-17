@@ -6,10 +6,10 @@ Two powerful amigos for automatic speech recognition! Run push-to-talk, auto-pas
 
 - **🪽 El Ligero**
 	- Lightweight & fast
-	- Model: whisper-small-mlx (~500MB)
+	- Model: [whisper-small-mlx]([url](https://huggingface.co/mlx-community/whisper-small-mlx)) (~500MB)
 - **🎯 El Preciso**
 	- Precise & fast, maximum accuracy
-	- Model: parakeet-tdt-0.6b-v2-mlx (~2GB)
+	- Model: [parakeet-tdt-0.6b-v2-mlx]([url](https://github.com/senstella/parakeet-mlx)) (~2GB)
 
 ## 🚀 Quick Download & Use
 
