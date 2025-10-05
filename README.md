@@ -9,7 +9,7 @@ Two powerful amigos for automatic speech recognition! Run push-to-talk, auto-pas
 	- Model: [whisper-small-mlx](https://huggingface.co/mlx-community/whisper-small-mlx) (~500MB)
 - **🎯 El Preciso**
 	- Precise & fast, maximum accuracy
-	- Model: [parakeet-tdt-0.6b-v2-mlx](https://github.com/senstella/parakeet-mlx) (~2GB)
+	- Model: [parakeet-tdt-0.6b-v3](https://huggingface.co/mlx-community/parakeet-tdt-0.6b-v3) (~2.4GB)
 
 ## 🚀 Download and Setup Instructions
 
@@ -23,9 +23,9 @@ Two powerful amigos for automatic speech recognition! Run push-to-talk, auto-pas
 3. Combine both parts `cat dos-amigos-offline-v1.0.zip.part* > dos-amigos-offline-v1.0.zip`
 4. Extract `unzip dos-amigos-offline-v1.0.zip`
 5. Change directories `cd dos-amigos-offline-v1.0`
-6. Run `uv run python scripts/setup_offline.py`
+6. Run `uv run python src/scripts/setup_offline.py`
 7. Activate `source .venv/bin/activate`
-7. Run `uv run python dos_amigos.py`
+7. Run `uv run python src/dos_amigos.py`
 8. Press Right Option to record.
 9. Press Right Option again to stop recording and paste your recorded text!
 

@@ -33,9 +33,9 @@ def get_model_config(amigo_type):
             "description": "Lightweight & fast"
         },
         "preciso": {
-            "type": "parakeet", 
-            "name": "parakeet-tdt-0.6b-v2",
-            "repo": "mlx-community/parakeet-tdt-0.6b-v2",
+            "type": "parakeet",
+            "name": "parakeet-tdt-0.6b-v3",
+            "repo": "mlx-community/parakeet-tdt-0.6b-v3",
             "description": "Maximum accuracy"
         }
     }
@@ -82,7 +82,7 @@ class DosAmigos:
         # Look for specific model type
         model_patterns = {
                 "ligero": ["whisper-small-mlx"],
-                "preciso": ["parakeet-tdt-0.6b-v2"],
+                "preciso": ["parakeet-tdt-0.6b-v3", "parakeet-tdt-0.6b-v2"],
             }
 
         for model_dir in model_dirs:
