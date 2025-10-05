@@ -29,3 +29,6 @@ Thumbs.db
 # Claude Code files
 .claude/
 CLAUDE.md
+
+# Build scripts
+src/scripts/build_release.py
